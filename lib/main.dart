@@ -128,7 +128,7 @@ class _HomePageState extends State<HomePage> {
                         child: ElevatedButton(
                             onPressed: () {
                               setState(() {
-                                SelectedProgram=const Q6();
+                                SelectedProgram= Q6();
                               });
                               Navigator.pop(context);
                             },
